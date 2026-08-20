@@ -1,16 +1,95 @@
-<!-- Navigation -->
-<li><a href="https://www.apple.com/store" target="_blank">Store</a></li>
-<li><a href="https://www.apple.com/mac" target="_blank">Mac</a></li>
-<li><a href="https://www.apple.com/iphone" target="_blank">iPhone</a></li>
-<li><a href="https://www.apple.com/ipad" target="_blank">iPad</a></li>
-<li><a href="https://www.apple.com/watch" target="_blank">Watch</a></li>
-<li><a href="https://www.apple.com/airpods" target="_blank">AirPods</a></li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechPhone - Think Different</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
 
-<!-- Hero Buttons -->
-<a href="https://www.apple.com/iphone" target="_blank" class="btn primary">Learn more</a>
-<a href="https://www.apple.com/shop/buy-iphone" target="_blank" class="btn secondary">Buy</a>
+<nav class="navbar">
+  <div class="logo">◉</div>
 
-<!-- Product Cards -->
-<a href="https://www.apple.com/mac" target="_blank">Learn more →</a>
-<a href="https://www.apple.com/watch" target="_blank">Learn more →</a>
-<a href="https://www.apple.com/airpods" target="_blank">Learn more →</a>
+  <ul class="nav-links">
+    <li><a href="#products">Store</a></li>
+    <li><a href="#products">Mac</a></li>
+    <li><a href="#hero">Phone</a></li>
+    <li><a href="#products">Tablet</a></li>
+    <li><a href="#products">Watch</a></li>
+    <li><a href="#products">Audio</a></li>
+  </ul>
+
+  <div class="nav-icons">
+    <span>⌕</span>
+    <span>▢</span>
+  </div>
+</nav>
+
+<section class="hero" id="hero">
+
+  <div class="hero-content">
+    <p class="small-title">FRONT-END INTERNSHIP PROJECT</p>
+
+    <h1>TechPhone</h1>
+
+    <h2>Designed to be loved.</h2>
+
+    <p class="description">
+      Powerful. Beautiful. Simply designed.
+      A responsive landing page built using HTML, CSS and JavaScript.
+    </p>
+
+    <div class="buttons">
+      <a href="#products" class="btn primary">Learn more</a>
+      <a href="#footer" class="btn secondary">Buy</a>
+    </div>
+  </div>
+
+  <div class="phone">
+    <div class="camera"></div>
+    <div class="camera"></div>
+    <div class="camera"></div>
+    <div class="screen"></div>
+  </div>
+
+</section>
+
+<section class="products" id="products">
+
+  <h2>Explore the Product Lineup</h2>
+
+  <div class="product-container">
+
+    <div class="product-card">
+      <div class="product-icon">💻</div>
+      <h3>Laptop Pro</h3>
+      <p>Power. Performance. Portability.</p>
+      <a href="#hero">Learn more →</a>
+    </div>
+
+    <div class="product-card">
+      <div class="product-icon">⌚</div>
+      <h3>Smart Watch</h3>
+      <p>A healthier you starts here.</p>
+      <a href="#hero">Learn more →</a>
+    </div>
+
+    <div class="product-card">
+      <div class="product-icon">🎧</div>
+      <h3>Wireless Buds</h3>
+      <p>Magic in your ears.</p>
+      <a href="#hero">Learn more →</a>
+    </div>
+
+  </div>
+
+</section>
+
+<footer id="footer">
+  <p>© 2026 TechPhone | Front-End Internship Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
