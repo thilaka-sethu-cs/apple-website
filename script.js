@@ -1,6 +1,7 @@
 const cards = document.querySelectorAll(".product-card");
 
 cards.forEach(card => {
+
     card.addEventListener("mouseenter", () => {
         card.style.transform = "translateY(-10px)";
     });
@@ -8,14 +9,17 @@ cards.forEach(card => {
     card.addEventListener("mouseleave", () => {
         card.style.transform = "translateY(0)";
     });
+
 });
 
 const navbar = document.querySelector(".navbar");
 
 window.addEventListener("scroll", () => {
+
     if (window.scrollY > 20) {
         navbar.style.boxShadow = "0 2px 20px rgba(0,0,0,0.15)";
     } else {
         navbar.style.boxShadow = "none";
     }
+
 });
